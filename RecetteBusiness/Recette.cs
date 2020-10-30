@@ -8,6 +8,8 @@ namespace RecetteBusiness
     {
         public String Titre { get; set; }
         public String Category { get; set; }
-        public 
+        public String Preparation { get; set; }
+
+        public Recette() { }
     }
 }
